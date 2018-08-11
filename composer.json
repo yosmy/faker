@@ -1,0 +1,21 @@
+{
+    "name": "yosmy/faker",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "fzaninotto/faker": "~1.6",
+        "giggsey/libphonenumber-for-php": "^8.6",
+        "mledoze/countries": "^2.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
